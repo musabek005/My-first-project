@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <style>
+    section{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+}
+nav{
+    margin-left: 80px;
+}
+nav h1{
+    color: rgb(0, 255, 13);
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 30px;
+}
+nav ul{
+    display: inline-block;
+    float: right;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: lime;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+nav ul li::after{
+    content: '';
+    width: 100%;
+    height: 0px;
+    display: block;
+    background: pink;
+    margin-top: 10px;
+}
+nav ul li:hover::after{
+    height: 4px;
+    </style>
+</head>
+<body>
+     <section>
+         <header>
+             <nav>
+                 <h1>Musabek</h1>
+                 <ul>
+                    <li><a class="b" href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a</li>
+                    <li><a href="#">CONTACT</a></li>
+                 </ul>
+             </nav>
+         </header>
+
+         <div>
+             <h1>Assalomu aleykum</h1>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, alias molestiae cupiditate natus, ullam laudantium consectetur animi a quibusdam dolores soluta.</p>
+             <button>About us</button>
+         </div>
+     </section>
+</body>
+</html>   
